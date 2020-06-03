@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ecourses.mapper.EcoursesOrderBmsMapper" >
+	<resultMap id="BaseResultMap" type="cn.ecourses.pojo.EcoursesOrderBms" >
+	    <id column="order_id" property="orderId" jdbcType="VARCHAR" />
+	    <result column="payment" property="payment" jdbcType="VARCHAR" />
+	    <result column="payment_type" property="paymentType" jdbcType="INTEGER" />
+	    <result column="post_fee" property="postFee" jdbcType="VARCHAR" />
+	    <result column="status" property="status" jdbcType="INTEGER" />
+	    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+	    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+	    <result column="payment_time" property="paymentTime" jdbcType="TIMESTAMP" />
+	    <result column="consign_time" property="consignTime" jdbcType="TIMESTAMP" />
+	    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+	    <result column="close_time" property="closeTime" jdbcType="TIMESTAMP" />
+	    <result column="shipping_name" property="shippingName" jdbcType="VARCHAR" />
+	    <result column="shipping_code" property="shippingCode" jdbcType="VARCHAR" />
+	    <result column="user_id" property="userId" jdbcType="BIGINT" />
+	    <result column="buyer_message" property="buyerMessage" jdbcType="VARCHAR" />
+	    <result column="buyer_nick" property="buyerNick" jdbcType="VARCHAR" />
+	    <result column="buyer_rate" property="buyerRate" jdbcType="INTEGER" />
+	    <result column="item_id" property="itemId" jdbcType="VARCHAR" />
+	    <result column="num" property="num" jdbcType="INTEGER" />
+    	<result column="title" property="title" jdbcType="VARCHAR" />
+	</resultMap>
+	
+	<select id="getOrderBmsList" resultMap="BaseResultMap">
+	    SELECT ecourses_order.*,ecourses_order_item.item_id,ecourses_order_item.num,ecourses_order_item.title
+	    FROM ecourses_order join ecourses_order_item
+	    ON ecourses_order.order_id=ecourses_order_item.order_id
+	</select>
+	 
+	<select id="countOrderBmsList" resultType="java.lang.Integer" >
+	    SELECT count(*)
+		FROM ecourses_order
+    </select>
+	
+</mapper>

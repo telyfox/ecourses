@@ -1,0 +1,13 @@
+cn\ecourses\mapper\EcoursesOrderMapper.class
+cn\ecourses\mapper\EcoursesContentMapper.class
+cn\ecourses\mapper\EcoursesItemMapper.class
+cn\ecourses\mapper\EcoursesOrderBmsMapper.class
+cn\ecourses\mapper\EcoursesContentCategoryMapper.class
+cn\ecourses\mapper\EcoursesAdminMapper.class
+cn\ecourses\mapper\EcoursesItemCatMapper.class
+cn\ecourses\mapper\EcoursesUserMapper.class
+cn\ecourses\mapper\EcoursesOrderShippingMapper.class
+cn\ecourses\mapper\EcoursesOrderItemMapper.class
+cn\ecourses\mapper\EcoursesItemParamMapper.class
+cn\ecourses\mapper\EcoursesItemParamItemMapper.class
+cn\ecourses\mapper\EcoursesItemDescMapper.class

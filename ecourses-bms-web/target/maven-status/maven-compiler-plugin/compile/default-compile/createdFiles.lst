@@ -1,0 +1,16 @@
+cn\ecourses\controller\ItemParamItemController.class
+cn\ecourses\controller\BmsOrderUserController.class
+cn\ecourses\controller\PageController.class
+cn\ecourses\controller\PictureController.class
+cn\ecourses\controller\LoginController.class
+cn\ecourses\controller\SearchItemController.class
+cn\ecourses\controller\UserController.class
+cn\ecourses\controller\AdminController.class
+cn\ecourses\controller\ItemParamController.class
+cn\ecourses\bms\interceptor\LoginInterceptor.class
+cn\ecourses\controller\ContentCatController.class
+cn\ecourses\controller\ContentController.class
+cn\ecourses\controller\ItemController.class
+cn\ecourses\controller\ItemCatController.class
+cn\ecourses\controller\ItemDescController.class
+cn\ecourses\controller\BmsOrderListController.class

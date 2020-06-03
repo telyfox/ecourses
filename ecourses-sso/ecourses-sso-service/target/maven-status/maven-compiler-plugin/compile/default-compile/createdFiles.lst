@@ -1,0 +1,3 @@
+cn\ecourses\sso\service\impl\LoginServiceImpl.class
+cn\ecourses\sso\service\impl\RegisterServiceImpl.class
+cn\ecourses\sso\service\impl\TokenServiceImpl.class

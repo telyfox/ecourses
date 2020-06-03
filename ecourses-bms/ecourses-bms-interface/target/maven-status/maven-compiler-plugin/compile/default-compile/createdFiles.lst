@@ -1,0 +1,11 @@
+cn\ecourses\service\ItemService.class
+cn\ecourses\service\BmsOrderListService.class
+cn\ecourses\service\BmsOrderUserService.class
+cn\ecourses\service\ItemParamItemService.class
+cn\ecourses\service\UserService.class
+cn\ecourses\service\ItemDescService.class
+cn\ecourses\service\ItemParamService.class
+cn\ecourses\service\TokenService.class
+cn\ecourses\service\ItemCatService.class
+cn\ecourses\service\AdminService.class
+cn\ecourses\service\LoginService.class
